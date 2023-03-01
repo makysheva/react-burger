@@ -1,16 +1,14 @@
-import {Header, Layout} from './components'
+import {Catalog, Footer, Header, Navigation} from './components'
 
 export const App = () => {
   return (
     <>
       <Header />
       <main>
-        <nav>
-          <Layout className="navigation__container" />
-        </nav>
-        <section></section>
+        <Navigation />
+        <Catalog />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 };
