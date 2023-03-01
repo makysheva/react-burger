@@ -31,7 +31,7 @@ export const Order = () => {
               </p>
             </div>
 
-            <Count />
+            <Count num={1} />
           </li>
 
           <li className={styles.order__item}>
@@ -52,7 +52,7 @@ export const Order = () => {
               </p>
             </div>
 
-            <Count />
+            <Count num={1} />
           </li>
 
           <li className={styles.order__item}>
@@ -73,7 +73,7 @@ export const Order = () => {
               </p>
             </div>
 
-            <Count />
+            <Count num={1} />
           </li>
         </ul>
 
