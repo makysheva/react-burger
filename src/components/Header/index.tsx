@@ -20,6 +20,11 @@ export const Header = () => {
 
           <p className={styles.header__appeal}>Бесплатная доставка от 599₽</p>
         </div>
+        <img
+          className={styles.header__login}
+          src="img/login.png"
+          alt="Login"
+        />
       </Layout>
     </header>
   );
